@@ -2,9 +2,9 @@ from selenium import webdriver
 import time
 
 try:
-    link = "http://suninjuly.github.io/registration2.html"
+    invalid_link = "http://suninjuly.github.io/registration2.html"
     browser = webdriver.Chrome()
-    browser.get(link)
+    browser.get(invalid_link)
 
     # Ваш код, который заполняет обязательные поля
     input1 = browser.find_element_by_css_selector(".first_block .first")
